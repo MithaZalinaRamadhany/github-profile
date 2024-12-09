@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit
 
 object ServiceBuilder {
 
-    //create loggingInterceptor
+    //create loggingInterceptorr
     private val loggingInterceptor = if(BuildConfig.DEBUG) {
         HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY)
     } else {
